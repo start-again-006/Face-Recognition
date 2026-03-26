@@ -108,7 +108,6 @@ flowchart TD
 
 Triplet Loss minimizes the distance between anchor and positive embeddings while maximizing the distance from negative embeddings:
 
-```text id="triplet-loss"
 ## Mathematical Formulation
 
 $$
@@ -116,7 +115,6 @@ $$
 L = \max\left(\|f(a) - f(p)\|^2 - \|f(a) - f(n)\|^2 + \alpha,\; 0\right)
 \]
 $$
-```
 
 ## Training & Initialization
 
